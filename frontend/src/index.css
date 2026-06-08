@@ -1,0 +1,40 @@
+/* Universal Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  outline: 2px solid black;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.brand-name{
+  margin: 8px;
+}
+
+button{
+  height: 30px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid rgb(161, 41, 161);
+  border-radius: 25px;
+  color: rgb(161, 41, 161);
+}
+
+button:hover{
+  background-color: rgb(161, 41, 161);
+  color: white;
+}
